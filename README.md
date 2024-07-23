@@ -31,15 +31,26 @@ Follow these steps:
 Clone the repo, open the .ipynb file and use it.
 
 **Make sure to remove the line:**
+
 ``` df['Current Price'] = df.apply(lambda row: getTickerPrice(row['Symbol'], row['Date']), axis=1)```
+
 **Also change:**
+
 ```df = df[['Date', 'Symbol', 'Side', 'Size', 'Price']].copy()```
+
 **To**
+
 ```df = df[['Date', 'Symbol', 'Side', 'Size', 'Price', 'Current Price']].copy()```
+
 Every change is to be committed in cell 3.
+
 Add a column called 'Current Price' in your dataframe. It should have the price at which the trade was exited.
+
 The 'Price' column indicates the price at which the trade was executed.
-**Your dataframe should have these columns: 'Date', 'Symbol', 'Side', 'Price,' 'Current Price' after all the above checks and changes.**
+
+**Your dataframe should have these columns:**
+
+'Date', 'Symbol', 'Side', 'Price,' 'Current Price' after all the above checks and changes.
 
 
 ## Contributions
