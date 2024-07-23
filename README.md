@@ -15,9 +15,8 @@ A set of financial measures is made available by this initiative to traders and 
 
 ## Installation
 To get started with the Financial Metrics Calculator, clone the repository and install any required dependencies.
-```git clone https://github.com/trippynix/Financial-Metrics-Calculator-Using-Trade-History.git
-cd Financial-Metrics-Calculator-Using-Trade-History
-```
+```git clone https://github.com/trippynix/Financial-Metrics-Calculator-Using-Trade-History.git```
+```cd Financial-Metrics-Calculator-Using-Trade-History```
 Install dependencies (if applicable)
 
 ## Usage
