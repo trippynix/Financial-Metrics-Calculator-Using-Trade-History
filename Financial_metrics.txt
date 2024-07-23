@@ -1,0 +1,12 @@
+Avg Loser
+gross_return
+Average Profits/Trade
+Reward/Risk
+Win Rate
+Lose Rate
+Sharpe Ratio
+Total Winning Trades
+Total Losing Trades
+Largest Winning Trade
+Largest Losing Trade
+Annual Rate of Returns
